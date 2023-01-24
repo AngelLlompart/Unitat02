@@ -18,6 +18,11 @@ public class Item2
         this.description = description;
     }
 
+    public string Name
+    {
+        get => name;
+        set => name = value;
+    }
     public virtual void MyTreat()
     {
         Debug.Log("Som un item general, no tenc característica especial");

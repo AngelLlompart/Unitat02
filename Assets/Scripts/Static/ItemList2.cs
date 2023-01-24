@@ -45,7 +45,7 @@ public class ItemList2 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.N))
         {
-            Debug.Log("S'han creat un total de " + Item3.numItems + " items.");
+            Debug.Log("S'han creat un total de " + Item3.NumItems + " items.");
         }
     }
 

@@ -11,7 +11,7 @@ public class Item3
     [SerializeField] private string name;
     [SerializeField] private int id;
     [SerializeField] private string description;
-    public static int numItems;
+    private static int numItems;
 
     public Item3()
     {
@@ -31,6 +31,7 @@ public class Item3
         Debug.Log("Som un item general, no tenc característica especial");
     }
 
+    public static int NumItems => numItems;
     public override string ToString()
     {
         if (String.IsNullOrEmpty(name))
